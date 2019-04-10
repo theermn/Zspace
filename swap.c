@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-      double firstNumber, secondNumber, temporaryVariable;
+      double firstNumber=23, secondNumber=34, temporaryVariable;
 
       printf("Enter first number: ");
       scanf("%lf", &firstNumber);
