@@ -1,10 +1,10 @@
 matrix:
-include:
-language: c
- sudo: false # only for faster builds
- compiler: 
- - clang
- - gcc
- script:
- - gcc -o swap swap.c 
- - ./swap
+  include:    
+    - language: c  
+      sudo: false # only for faster builds  
+      compiler:
+        - clang
+        - gcc
+      script:  
+        - gcc -o swap swap.c 
+        - ./swap
