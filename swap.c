@@ -3,13 +3,8 @@ int main()
 {
       double firstNumber=23, secondNumber=34, temporaryVariable;
 
-      printf("Enter first number: ");
-      scanf("%lf", &firstNumber);
-
-      printf("Enter second number: ");
-      scanf("%lf",&secondNumber);
-
-     
+    
+    
       temporaryVariable = firstNumber;
 
       firstNumber = secondNumber;
